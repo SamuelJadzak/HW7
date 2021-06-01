@@ -1,4 +1,5 @@
 import unittest
+import FizzBuzz
 
 class testcase2(unittest.TestCase):
     def test_multiples3(self):
