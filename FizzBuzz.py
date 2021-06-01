@@ -13,3 +13,11 @@ def BuzzFunc():
             Buzz = Buzz + 1
     print("Buzz"*Buzz)
     return Buzz
+
+def FizzBuzzFunc():
+    FizzBuzz = 0
+    for x in range(90):
+        if (x % 15 == 0):
+            FizzBuzz = FizzBuzz + 1
+    print("FizzBuzz"*FizzBuzz)
+    return FizzBuzz
